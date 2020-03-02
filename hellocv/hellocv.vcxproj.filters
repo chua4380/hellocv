@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hellocv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blurImg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="canny_edge_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="videoCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imwriteImg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_createTrackbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatInitialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="formatOutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="otherStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imageOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imageROI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testConstrastAndBright.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testConvolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="convolution2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testDFT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myDFT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testXML.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testXML2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_blockFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_FIlter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testBilateraFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_dilate_erode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_morphologyEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_floodFill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_floodFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="floodFIll2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_resize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_pyrUp_pyrDown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_threshold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testCanny.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testSobel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testLaplacian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testHoughLines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_HoughLinesP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testHoughCircles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advancedHoughLines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_remap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multiremap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testWarpAffine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_equalizeHist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_drawContours.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_drawContours.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_convexHull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_convexHull.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test-minAreaRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_minEnclosingCircle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_polyRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_moment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_watershed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_watershed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_inpaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="paintH-S.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advancde_hist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testRGBhist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_calcBackProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_matchTemplate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cornerHarris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_harris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_Shi_Tomasi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cornerSubPix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
